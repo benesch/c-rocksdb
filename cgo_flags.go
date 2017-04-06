@@ -11,6 +11,7 @@ package rocksdb
 // #cgo darwin CPPFLAGS: -DOS_MACOSX -DROCKSDB_BACKTRACE
 // #cgo linux CPPFLAGS: -DOS_LINUX -fno-builtin-memcmp -DROCKSDB_MALLOC_USABLE_SIZE
 // #cgo freebsd CPPFLAGS: -DOS_FREEBSD
+// #cgo openbsd CPPFLAGS: -DOS_OPENBSD
 // #cgo dragonfly CPPFLAGS: -DOS_DRAGONFLY
 // #cgo linux LDFLAGS: -lrt
 // #cgo windows LDFLAGS: -lrpcrt4

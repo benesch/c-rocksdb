@@ -26,5 +26,6 @@ import (
 // #cgo CPPFLAGS: -DROCKSDB_JEMALLOC -DJEMALLOC_NO_DEMANGLE
 // #cgo darwin CPPFLAGS: -I../c-jemalloc/darwin_includes/internal/include
 // #cgo freebsd CPPFLAGS: -I../c-jemalloc/freebsd_includes/internal/include
+// #cgo openbsd CPPFLAGS: -I../c-jemalloc/openbsd_includes/internal/include
 // #cgo linux CPPFLAGS: -I../c-jemalloc/linux_includes/internal/include
 import "C"
